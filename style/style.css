@@ -1,0 +1,108 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+main .line{
+    margin: 20px;
+    background-color: black;
+    width: 80px;
+    height: 5px;
+    border-radius: 10px;
+}
+.title{
+    font-family: 'Ruda', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.title1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900px;
+    font-weight:800;
+    font-size: 120px;
+    letter-spacing: 15px;
+    line-height: 95%;
+    color:#B88940;
+}
+.title2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900px;
+    font-weight:900;
+    font-size: 50px;
+}
+.title3{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900px;
+    font-weight:900;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+}
+
+section .line{
+    margin: auto;
+    width: 90%;
+    height: 40px;
+    background-color: #FFBD59;    
+}
+
+section .box{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+section .box .image{
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    width: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+footer .title{
+    margin-top: 100px ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 20px;
+    color:#B88940;
+}
+footer .title2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1%;
+    font-weight: 700;
+}
